@@ -51,6 +51,15 @@ function setup() {
 }
 
 function clearall() {
+  var ios1 = document.getElementById("#1");
+  var ios2 = document.getElementById("#2");
+  var ios3 = document.getElementById("#3");
+  var ios4= document.getElementById("#4");
+  var ios5 = document.getElementById("#5");
+  var ios6 = document.getElementById("#6");
+  var ios7 = document.getElementById("#7");
+  var ios8 = document.getElementById("#8");
+  var ios9 = document.getElementById("#9");
   var ios10 = document.getElementById("#10");
   var ios11 = document.getElementById("#11");
   var ios12 = document.getElementById("#12");
@@ -62,6 +71,15 @@ function clearall() {
   ios12.style.display = "none";
   ios11.style.display = "none";
   ios10.style.display = "none";
+  ios9.style.display = "none";
+  ios8.style.display = "none";
+  ios7.style.display = "none";
+  ios6.style.display = "none";
+  ios5.style.display = "none";
+  ios4.style.display = "none";
+  ios3.style.display = "none";
+  ios2.style.display = "none";
+  ios1.style.display = "none";
 }
 
 function os14() {
@@ -91,5 +109,51 @@ function os11() {
 function os10() {
   clearall();
   var ios = document.getElementById("#10");
+  ios.style.display = "flex";
+}
+
+function os9() {
+  clearall();
+  var ios = document.getElementById("#9");
+  ios.style.display = "flex";
+}
+function os8() {
+  clearall();
+  var ios = document.getElementById("#8");
+  ios.style.display = "flex";
+}
+function os7() {
+  clearall();
+  var ios = document.getElementById("#7");
+  ios.style.display = "flex";
+}
+function os6() {
+  clearall();
+  var ios = document.getElementById("#6");
+  ios.style.display = "flex";
+}
+function os5() {
+  clearall();
+  var ios = document.getElementById("#5");
+  ios.style.display = "flex";
+}
+function os4() {
+  clearall();
+  var ios = document.getElementById("#4");
+  ios.style.display = "flex";
+}
+function os3() {
+  clearall();
+  var ios = document.getElementById("#3");
+  ios.style.display = "flex";
+}
+function os2() {
+  clearall();
+  var ios = document.getElementById("#2");
+  ios.style.display = "flex";
+}
+function os1() {
+  clearall();
+  var ios = document.getElementById("#1");
   ios.style.display = "flex";
 }
