@@ -13,6 +13,6 @@
   "author": "Baran Önen",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^9.1.1"
+    "electron": "^18.3.7"
   }
 }
